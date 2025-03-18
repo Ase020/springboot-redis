@@ -13,6 +13,13 @@ public class Product {
     private String name;
     private BigDecimal price;
 
+    public Product(String tablet, BigDecimal bigDecimal) {
+    }
+
+    public Product() {
+
+    }
+
     public long getId() {
         return id;
     }
